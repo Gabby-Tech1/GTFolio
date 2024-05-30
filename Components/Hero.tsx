@@ -17,7 +17,7 @@ const Hero = () => {
 
 
   return (
-    <div className='h-[88vh] bg-[url()] bg-cover bg-center my-4'>
+    <div className='h-[88vh] bg-cover bg-center my-4'>
       <div className='w-[88%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-12 h-full items-center'>
         <div className='flex flex-col '>
             <h1 className='text-white text-4xl md:text-5xl font-bold'>Hello everyone, I'm <span className='text-[#0ef]'>Gabriel Kwame Addo Quainooo</span>, </h1>
