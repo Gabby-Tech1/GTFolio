@@ -7,7 +7,7 @@ interface Props {
 
 const Navbar = ({openNavbar}:Props) => {
   return (
-    <div className='w-[100vw] sticky top-0 h-[12vh] bg-[#141c27] shadow-md z-[10]'>
+    <div className='w-[100vw] sticky top-0 h-[12vh] bg-[#141c27] shadow-md'>
         <div className='flex items-center justify-between w-[89%] mx-auto h-[100%]'>
             <h1 className='flex-[0.6] cursor-pointer text-3xl text-white font-bold'>
                 Gabby

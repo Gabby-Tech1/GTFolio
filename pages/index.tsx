@@ -2,6 +2,7 @@ import Navbar from '@/Components/Navbar'
 import MobileNav from '@/Components/MobileNav'
 import Hero from '@/Components/Hero'
 import React, { useState } from 'react'
+import About from '@/Components/About'
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
         <MobileNav navbar={navbar} closeNavbar={closeNavbar}/>
         <Navbar openNavbar={openNavbar}/>
         <Hero/>
+        <About/>
       </div>
     </div>
   )
