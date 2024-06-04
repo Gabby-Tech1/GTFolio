@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import Image from 'next/image';
 
 const Testimonial = () => {
   return (
@@ -24,7 +25,7 @@ const Testimonial = () => {
             <SwiperSlide className='border-[#0ef] md:flex items-center  gap-2 px-4 py-2 rounded-md bg-transparent border flex-col text-white'>
                 <div className="flex flex-row items-center gap-5 p-2">
                     <div className="w-20 ">
-                        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" className='rounded-3xl'/>
+                        <Image src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt='avatar' className='rounded-3xl'/>
                     </div>
                     <div className='flex flex-col '>
                         <p className='text-xl font-bold'>Nana A. Agyapong</p>
