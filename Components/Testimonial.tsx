@@ -28,7 +28,7 @@ const Testimonial = () => {
                     </div>
                     <div className='flex flex-col '>
                         <p className='text-xl font-bold'>Nana A. Agyapong</p>
-                        <p classNme='text-gray-700'>CEO of Melcom Online</p>
+                        <p className='text-gray-700'>CEO of Melcom Online</p>
                     </div>
                     
                 </div>
@@ -43,7 +43,7 @@ const Testimonial = () => {
                     </div>
                     <div className='flex flex-col '>
                         <p className='text-xl font-bold'>Derrick K.</p>
-                        <p classNme='text-gray-700'>Founder of ABC Startups</p>
+                        <p className='text-gray-700'>Founder of ABC Startups</p>
                     </div>
                     
                 </div>
@@ -58,7 +58,7 @@ const Testimonial = () => {
                     </div>
                     <div className='flex flex-col '>
                         <p className='text-xl font-bold'>Roman L.</p>
-                        <p classNme='text-gray-700'>Marketing Manager at DEF Agency</p>
+                        <p className='text-gray-700'>Marketing Manager at DEF Agency</p>
                     </div>
                     
                 </div>
@@ -73,7 +73,7 @@ const Testimonial = () => {
                     </div>
                     <div className='flex flex-col '>
                         <p className='text-xl font-bold'>George B.</p>
-                        <p classNme='text-gray-700'>Project Manager at JKL Studios</p>
+                        <p className='text-gray-700'>Project Manager at JKL Studios</p>
                     </div>
                     
                 </div>
@@ -88,7 +88,7 @@ const Testimonial = () => {
                     </div>
                     <div className='flex flex-col '>
                         <p className='text-xl font-bold'>Gabriel Q.</p>
-                        <p classNme='text-gray-700'>Founder of Gabby Tech Hub</p>
+                        <p className='text-gray-700'>Founder of Gabby Tech Hub</p>
                     </div>
                     
                 </div>

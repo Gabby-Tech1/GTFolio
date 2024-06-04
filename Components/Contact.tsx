@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Contact = () => {
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: { preventDefault: () => void; target: any }) => {
     event.preventDefault()
     const form = event.target
     const data = new FormData(form)
@@ -23,7 +23,7 @@ const Contact = () => {
     }
   }
 
-  const handleChange = (event) => {
+  const handleChange = (event: { target: { name: any; value: any } }) => {
     // Handle form input changes
     console.log('Form input changed:', event.target.name, event.target.value)
   }
