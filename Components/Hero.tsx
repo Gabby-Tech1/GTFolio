@@ -1,6 +1,9 @@
 import React from 'react'
 import TypeEffect from '@/Components/TypeEffect'
 import { FaDownload } from "react-icons/fa6";
+import Pic from '@/Assets/image.png'
+import Image from 'next/image'
+
 
 const Hero = () => {
     const handleCVDownload = () => {
@@ -29,8 +32,7 @@ const Hero = () => {
             </button>
         </div>
         <div className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] bg-[#0ef] relative lg:flex items-center md:h-[500px] order-first lg:order-last mt-4 mx-auto'>
-            {/* <Image src={} alt="hero image"  layout='fill' className='object-cover'/> */}
-
+            <Image src={Pic} alt="hero image"  layout='fill' className='object-cover w-[200px] h'/>
         </div>
         
       </div>

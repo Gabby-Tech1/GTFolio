@@ -3,6 +3,12 @@ import MobileNav from '@/Components/MobileNav'
 import Hero from '@/Components/Hero'
 import React, { useState } from 'react'
 import About from '@/Components/About'
+import Services from '@/Components/Services'
+import Skills from '@/Components/Skills'
+import Projects from '@/Components/Projects'
+import Testimonial from '@/Components/Testimonial'
+import Contact from '@/Components/Contact'
+import Footer from '@/Components/Footer'
 
 const Home = () => {
 
@@ -17,6 +23,12 @@ const Home = () => {
         <Navbar openNavbar={openNavbar}/>
         <Hero/>
         <About/>
+        <Services/>
+        <Skills/>
+        <Projects/>
+        <Testimonial/>
+        <Contact/>
+        <Footer/>
       </div>
     </div>
   )
